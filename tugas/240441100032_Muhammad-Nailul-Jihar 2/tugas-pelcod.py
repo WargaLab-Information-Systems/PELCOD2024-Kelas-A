@@ -36,21 +36,21 @@ else:
 # Operasi aritmatika dengan input pengguna
 print("Arif: eh, ayo main tebak-tebakan yok!")
 number1 = int(input("Arif: Berapa 5 x 7? "))
-correct_answer = 5 * 7
+benar = 5 * 7
 
-if number1 == correct_answer:
+if number1 == benar:
     print("Arif: Benar sekali! Kamu pintar matematika ya.")
 else:
-    print(f"Arif: Hmm, sebenarnya jawabannya adalah {correct_answer}.")
+    print(f"Arif: Hmm, sebenarnya jawabannya adalah {benar}.")
 
 print("Arif: aku ada tebak - tebakan lagi nih!!!")
 number2 = int(input("Arif: Berapa kelipatan angka perhitungan data pada komputer? "))
-correct_answer = 2
+benar = 2
 
-if number2 == correct_answer:
+if number2 == benar:
     print("Arif : Benar sekali!")
 else:
-    print(f"Arif : Hmm, sebenarnya jawabannya adalah {correct_answer}.")
+    print(f"Arif : Hmm, sebenarnya jawabannya adalah {benar}.")
 
 print("Arif: Terima kasih Vincent, senang ngobrol denganmu!")
 print("Vincent: Sama-sama arif, sampai jumpa lagi!")
